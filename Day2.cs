@@ -74,13 +74,14 @@ namespace BCA_B1_207
 
             bool check1= true;
             bool check2= false;
+
+
             //bool check3= "false"; (Invalid)
 
 
             Console.WriteLine (check1);
             Console.WriteLine (check2);
 
-            Console.WriteLine(12.GetType());
 
 
         }
