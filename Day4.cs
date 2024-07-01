@@ -66,6 +66,7 @@ namespace BCA_B1_207
             // sum of n natural Numbers 
             // (10+9+8+7+6+5+4+3+2+1)=55
 
+
             int n = 10;
 
             int result = (n * (n + 1)) / 2;
@@ -104,36 +105,6 @@ namespace BCA_B1_207
 
             // Relational and logical will check the conditions 
             // if else, loops, so on
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
