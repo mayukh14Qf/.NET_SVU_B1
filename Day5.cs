@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BCA_B1_207
 {
@@ -28,7 +24,7 @@ namespace BCA_B1_207
 
             int result=num1 + num2;
 
-            Console.WriteLine("The sum is : "+  result);
+            Console.WriteLine("The sum is : " +  result);
 
 
             // Character User Input 
@@ -37,6 +33,12 @@ namespace BCA_B1_207
             char char1=Convert.ToChar(Console.ReadLine()); // explicit type casting
 
             Console.WriteLine("your char is " + char1);
+
+
+            Console.WriteLine("Enter Your Decimal Value :");
+            double num3=Convert.ToDouble(Console.ReadLine());
+
+            Console.WriteLine("Your decimal Value is : " + num3);
 
         }
     }
