@@ -96,7 +96,7 @@ namespace BCA_B1_207
             }
             else if (char1 >= 'A' && char1 <= 'Z')
             {
-                Console.WriteLine("This is A Upper Case Alphabet");
+                Console.WriteLine("This is An Upper Case Alphabet");
             }
             else
             {
