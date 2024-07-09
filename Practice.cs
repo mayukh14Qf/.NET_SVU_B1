@@ -25,11 +25,11 @@ namespace BCA_B1_207
             {
                 Console.WriteLine("You Are at the Origin");
             }
-            else if (x == 0 && y > 0)
+            else if (x == 0 && (y > 0 || y<0))
             {
                 Console.WriteLine("You Are in the Y axis ");
             }
-            else if (x > 0 && y == 0)
+            else if ((x > 0 || x<0) && y == 0)
             {
                 Console.WriteLine("You Are in the X axis ");
             }
