@@ -11,8 +11,6 @@ namespace BCA_B1_207
         static void Main(string[] args)
         {
 
-
-
             //factorial of a number
 
             Console.WriteLine("enter a range:");
