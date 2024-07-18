@@ -69,7 +69,7 @@ namespace BCA_B1_207
 
             //    k1++;
             //}
-            //Console.WriteLine(result1);
+             //Console.WriteLine(result1);
 
 
 
@@ -115,3 +115,4 @@ namespace BCA_B1_207
         }
     }
 }
+ 
