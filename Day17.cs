@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Numerics;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,8 +13,7 @@ namespace BCA_B1_207
         {
 
 
-
-            // Check A Number is Perfect Number or Not
+            // Check A Number is Perfect Number o r Not
 
             Console.WriteLine("Enter Your Number : ");
             int number1 = Convert.ToInt32(Console.ReadLine());
@@ -71,6 +71,9 @@ namespace BCA_B1_207
             }
 
             Console.WriteLine(sumOfDigits);
+
+            
+
         }
     }
 }
