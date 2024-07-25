@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>BCA_B1_207.Day20</StartupObject>
+    <StartupObject>BCA_B1_207.Day21</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -60,6 +60,7 @@
     <Compile Include="Day19.cs" />
     <Compile Include="Day2.cs" />
     <Compile Include="Day20.cs" />
+    <Compile Include="Day21.cs" />
     <Compile Include="Day3.cs" />
     <Compile Include="Day4.cs" />
     <Compile Include="Day5.cs" />

@@ -104,6 +104,22 @@ namespace BCA_B1_207
             }
 
 
+            // Find out the max and min digit of a number
+
+            Console.WriteLine("Enter Your Number : ");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            int max1 = 0;
+            int min1 = 9;
+
+            while (num1 > 0)
+            {
+                min1 = Math.Min(min1, num1 % 10);
+                max1 = Math.Max(max1, num1 % 10);
+                num1 = num1 / 10;
+            }
+
+            Console.WriteLine(max1);
+            Console.WriteLine(min1);
         }
     }
 }
